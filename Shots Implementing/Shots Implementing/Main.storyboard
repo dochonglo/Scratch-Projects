@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="TipoType - Libertad.otf">
+            <string>Libertad</string>
+            <string>Libertad</string>
+            <string>Libertad</string>
+            <string>Libertad</string>
+            <string>Libertad</string>
+            <string>Libertad</string>
+            <string>Libertad</string>
+            <string>Libertad</string>
+            <string>Libertad</string>
+            <string>Libertad</string>
+            <string>Libertad</string>
+            <string>Libertad</string>
+            <string>Libertad</string>
+            <string>Libertad</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="HomeViewController" customModule="Shots_Implementing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" id="o6W-oE-9iy">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="3uB-kW-0pM">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" id="xgW-Pc-Shx" customClass="DesignableView" customModule="Shots_Implementing" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="149" width="280" height="270"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6E4-aK-o3I">
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="210"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="image">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="imageButtonDidTouch:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="saQ-Xk-54H"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" id="BDg-yK-bfW">
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="61"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bug" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qCe-wo-HaT">
+                                                        <rect key="frame" x="55" y="8" width="170" height="19"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="Libertad" family="Libertad" pointSize="20"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mike | Creative Mints" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Dxa-GE-Blu">
+                                                        <rect key="frame" x="87" y="34" width="107" height="19"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="Libertad" family="Libertad" pointSize="12"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" id="0rY-sb-IEB">
+                                                        <rect key="frame" x="69" y="36" width="15" height="15"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.">
+                                                                <integer key="value" value="7"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dialog Favorites" id="B2Q-WW-Qfp">
+                                                        <rect key="frame" x="232" y="8" width="40" height="40"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tyr-CG-U1O">
+                                                        <rect key="frame" x="242" y="16" width="20" height="11"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="Libertad" family="Libertad" pointSize="12"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4H6-tt-Ksc">
+                                                <rect key="frame" x="0.0" y="210" width="140" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.94901960784313721" green="0.96862745098039216" blue="0.98039215686274506" alpha="0.5" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Libertad" family="Libertad" pointSize="20"/>
+                                                <inset key="imageEdgeInsets" minX="-15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Like" image="like">
+                                                    <color key="titleColor" red="0.23921568627450979" green="0.25882352941176467" blue="0.30588235294117649" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="likeButtonDidTouch:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jx9-bA-xNg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rro-br-qSv">
+                                                <rect key="frame" x="140" y="210" width="140" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.94901960780000005" green="0.96862745100000003" blue="0.98039215690000003" alpha="0.5" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Libertad" family="Libertad" pointSize="20"/>
+                                                <inset key="imageEdgeInsets" minX="-15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Share" image="share">
+                                                    <color key="titleColor" red="0.23921568630000001" green="0.25882352939999997" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="shareButtonDidTouch:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PnG-O3-4b3"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.93725490196078431" green="0.96078431372549022" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                                        <gestureRecognizers/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="GtP-vZ-eS9" appends="YES" id="2Th-dF-r91"/>
+                                        </connections>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yIv-8s-elc">
+                                        <rect key="frame" x="260" y="30" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Button-user">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="userButtonDidTouch:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5Wx-I8-qY4"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yBw-AE-JZ0">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="backgroundMaskViewButtonDidTouch:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ze5-as-Jws"/>
+                                        </connections>
+                                    </button>
+                                    <view hidden="YES" contentMode="scaleToFill" id="12V-ES-Jeu">
+                                        <rect key="frame" x="130" y="81" width="170" height="141"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Popover-background" id="DRp-D5-7gR">
+                                                <rect key="frame" x="0.0" y="0.0" width="170" height="141"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ze9-sE-YNz">
+                                                <rect key="frame" x="0.0" y="9" width="170" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Libertad" family="Libertad" pointSize="18"/>
+                                                <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <inset key="titleEdgeInsets" minX="10" minY="2" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Profile" image="popover-profile">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xba-qx-SiX">
+                                                <rect key="frame" x="0.0" y="52" width="170" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Libertad" family="Libertad" pointSize="18"/>
+                                                <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <inset key="titleEdgeInsets" minX="6" minY="2" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="-1" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Favorites" image="popover-favorites">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1ty-JC-NeR">
+                                                <rect key="frame" x="0.0" y="95" width="170" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Libertad" family="Libertad" pointSize="18"/>
+                                                <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <inset key="titleEdgeInsets" minX="16" minY="2" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="3" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Share" image="popover-shares">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view hidden="YES" contentMode="scaleToFill" id="Co8-nJ-78T">
+                                        <rect key="frame" x="0.0" y="372" width="320" height="196"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Rectangle 7" id="VM8-Oo-Bhl">
+                                                <rect key="frame" x="0.0" y="-2" width="320" height="198"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kBm-qg-lwd">
+                                                <rect key="frame" x="17" y="59" width="90" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Share = Email">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DRE-6J-QVu">
+                                                <rect key="frame" x="115" y="59" width="90" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Share - Twitter">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1iW-pq-7DC">
+                                                <rect key="frame" x="213" y="59" width="90" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Share - Facebook">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h3j-Hh-3fz">
+                                                <rect key="frame" x="38" y="157" width="48" height="19"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Libertad" family="Libertad" pointSize="20"/>
+                                                <color key="textColor" red="0.60784313729999995" green="0.60784313729999995" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facebook" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Wp5-l0-4w2">
+                                                <rect key="frame" x="217" y="157" width="83" height="19"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Libertad" family="Libertad" pointSize="20"/>
+                                                <color key="textColor" red="0.60784313729999995" green="0.60784313729999995" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lmy-lZ-77Y">
+                                                <rect key="frame" x="129" y="157" width="62" height="19"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Libertad" family="Libertad" pointSize="20"/>
+                                                <color key="textColor" red="0.60784313729999995" green="0.60784313729999995" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Piy-Bm-aJY">
+                                                <rect key="frame" x="134" y="18" width="53" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Libertad" family="Libertad" pointSize="22"/>
+                                                <color key="textColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="authorLabel" destination="Dxa-GE-Blu" id="Trw-LJ-Vrv"/>
+                        <outlet property="avatarImageView" destination="0rY-sb-IEB" id="Hfe-cF-84I"/>
+                        <outlet property="backgroundImageView" destination="o6W-oE-9iy" id="ULT-PL-8JP"/>
+                        <outlet property="backgroundMaskView" destination="3uB-kW-0pM" id="4Ak-ZR-Oph"/>
+                        <outlet property="backgroundMaskViewButton" destination="yBw-AE-JZ0" id="4hJ-8D-QBW"/>
+                        <outlet property="dialogView" destination="xgW-Pc-Shx" id="lSR-Yn-z7b"/>
+                        <outlet property="emailButton" destination="kBm-qg-lwd" id="s2e-9O-Nat"/>
+                        <outlet property="emailLabel" destination="h3j-Hh-3fz" id="gy7-7J-XMf"/>
+                        <outlet property="facebookButton" destination="1iW-pq-7DC" id="maC-MB-X3g"/>
+                        <outlet property="facebookLabel" destination="Wp5-l0-4w2" id="xwB-A4-XG3"/>
+                        <outlet property="favoritesLabel" destination="B2Q-WW-Qfp" id="UXb-5S-gU7"/>
+                        <outlet property="headerView" destination="BDg-yK-bfW" id="Nki-ay-Z69"/>
+                        <outlet property="imageButton" destination="6E4-aK-o3I" id="ZNW-Al-qoD"/>
+                        <outlet property="likeButton" destination="4H6-tt-Ksc" id="tU4-zz-oVs"/>
+                        <outlet property="panGesture" destination="GtP-vZ-eS9" id="jky-0d-XR1"/>
+                        <outlet property="popoverView" destination="12V-ES-Jeu" id="WEE-ZT-a0g"/>
+                        <outlet property="shareButton" destination="rro-br-qSv" id="f0b-0P-QON"/>
+                        <outlet property="shareLabel" destination="Piy-Bm-aJY" id="tIZ-dD-Dar"/>
+                        <outlet property="shareView" destination="Co8-nJ-78T" id="swr-bb-jJg"/>
+                        <outlet property="titleLabel" destination="qCe-wo-HaT" id="2Z2-01-dG3"/>
+                        <outlet property="twitterButton" destination="DRE-6J-QVu" id="O2n-v3-TyD"/>
+                        <outlet property="twitterLabel" destination="lmy-lZ-77Y" id="iHm-k5-lXq"/>
+                        <outlet property="userButton" destination="yIv-8s-elc" id="dmn-Rh-JIE"/>
+                        <segue destination="mFM-uM-9gn" kind="modal" identifier="homeToDetail" animates="NO" id="ohp-3w-new"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="GtP-vZ-eS9">
+                    <connections>
+                        <action selector="panGestureMoving:" destination="vXZ-lx-hvc" id="Gqc-hw-ofs"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="234" y="342"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="BJl-nb-oc0">
+            <objects>
+                <viewController id="mFM-uM-9gn" customClass="DetailViewController" customModule="Shots_Implementing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pIG-WN-Sry">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" id="HxF-n0-JxO">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MrO-C3-9E9">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Back Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButtonDidTouch:" destination="mFM-uM-9gn" eventType="touchUpInside" id="Wq0-Gm-VCc"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" id="tb8-Ez-cZt">
+                                <rect key="frame" x="20" y="255" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mike | Creative Mints" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nwB-8G-QUo">
+                                <rect key="frame" x="61" y="260" width="178" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Libertad" family="Libertad" pointSize="20"/>
+                                <color key="textColor" red="0.31764705882352939" green="0.63921568627450975" blue="0.83529411764705885" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="s3L-pe-z0g">
+                                <rect key="frame" x="20" y="299" width="279" height="266"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">You guys, the new "How To Draw: drawing and sketching objects and environments from your imagination" book by S. Robertson is just amazing! I spent the whole weekend gobbling it up and of course I couldn't help but take the watercolors myself! :)
+
+Fill up the gas tank and go check out the attachment!
+
+Behance</string>
+                                <fontDescription key="fontDescription" name="Libertad" family="Libertad" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="authorLabel" destination="nwB-8G-QUo" id="HFY-a1-reV"/>
+                        <outlet property="avatarImageView" destination="tb8-Ez-cZt" id="6Ef-OF-SCq"/>
+                        <outlet property="backButton" destination="MrO-C3-9E9" id="1rL-jK-nLo"/>
+                        <outlet property="imageView" destination="HxF-n0-JxO" id="sgA-uh-feL"/>
+                        <outlet property="textView" destination="s3L-pe-z0g" id="ALZ-od-c5d"/>
+                        <segue destination="vXZ-lx-hvc" kind="modal" identifier="detailToHome" animates="NO" id="AdU-6s-Bhg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wsg-Dq-n9J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="732" y="342"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Back Button" width="40" height="40"/>
+        <image name="Button-user" width="40" height="40"/>
+        <image name="Dialog Favorites" width="33" height="33"/>
+        <image name="Popover-background" width="170" height="141"/>
+        <image name="Rectangle 7" width="320" height="198"/>
+        <image name="Share - Facebook" width="90" height="90"/>
+        <image name="Share - Twitter" width="90" height="90"/>
+        <image name="Share = Email" width="90" height="90"/>
+        <image name="avatar" width="160" height="160"/>
+        <image name="image" width="800" height="600"/>
+        <image name="like" width="24" height="22"/>
+        <image name="popover-favorites" width="18" height="16"/>
+        <image name="popover-profile" width="14" height="15"/>
+        <image name="popover-shares" width="9" height="17"/>
+        <image name="share" width="19" height="27"/>
+    </resources>
+</document>
